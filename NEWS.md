@@ -1,3 +1,26 @@
+# glcdp 1.1.0
+
+* Added `glc_collection_plan()` to find compatible file groups before reading
+  measurement data. Plans include clear reasons when groups cannot be combined.
+* Collection plans include study, contributor, dataset, participant, device,
+  instrument, and variable metadata for filtering. Planning only loads declared
+  core metadata at the verified package revision.
+* Added `glc_collection_refine()` to update a selection from an existing plan
+  without downloading or reloading anything.
+* Compatible unordered factors can now be combined using a consistent set of
+  levels. Conflicting values, labels, descriptions, or ordering still prevent
+  collection. `glc_read()` preserves the declarations needed for these checks.
+* File groups from different devices can now be collected within one dataset.
+  Device information remains linked through `file_group_id`.
+* The Explorer, collection planner, and `glc_collect()` now use the same
+  compatibility rules. Actual data are still checked when read and collected.
+* Collection plans use format 1.2.0 and version 2 identifiers. Rebuild plans
+  saved with earlier development versions.
+* Updated the default registry URL to the official Global Light Commons
+  endpoint and refreshed the Posit Connect deployment manifest.
+* Added documentation and tests for planning, refinement, and factor handling,
+  and updated the live Schema 3 integration test expectations.
+
 # glcdp 1.0.0
 
 * Promoted schema 3.0.2 to the current default and primary stable import

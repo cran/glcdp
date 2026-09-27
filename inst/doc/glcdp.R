@@ -8,7 +8,7 @@ live <- identical(Sys.getenv("IN_PKGDOWN"), "true") &&
   !identical(Sys.getenv("GLCDP_SKIP_LIVE"), "true")
 
 ## ----install, eval = FALSE----------------------------------------------------
-# pak::pak("tscnlab/glc-dp-r")
+# install.packages("glcdp")
 # library(glcdp)
 
 ## ----schemas------------------------------------------------------------------

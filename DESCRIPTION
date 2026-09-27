@@ -1,6 +1,6 @@
 Package: glcdp
 Title: Discover, Access, and Import Global Light Commons Data Packages
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: c(
     person(
       "Johannes", "Zauner",
@@ -45,7 +45,7 @@ BugReports: https://github.com/tscnlab/glc-dp-r/issues
 Config/Needs/website: pkgdown
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2026-07-28 18:47:37 UTC; zauner
+Packaged: 2026-09-27 20:30:00 UTC; zauner
 Author: Johannes Zauner [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0003-2171-4566>),
   Salma M. Thalji [aut, cph] (ORCID:
@@ -54,4 +54,4 @@ Author: Johannes Zauner [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0002-8572-9268>)
 Maintainer: Johannes Zauner <johannes.zauner@tum.de>
 Repository: CRAN
-Date/Publication: 2026-08-06 13:00:02 UTC
+Date/Publication: 2026-09-27 21:20:02 UTC

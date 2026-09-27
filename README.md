@@ -1,6 +1,7 @@
 # glcdp <img src="man/figures/logo.png" align="right" height="139" alt="glcdp package logo" />
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/glcdp)](https://CRAN.R-project.org/package=glcdp)
 [![R-CMD-check](https://github.com/tscnlab/glc-dp-r/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tscnlab/glc-dp-r/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -24,7 +25,7 @@ Install the development version from GitHub:
 pak::pak("tscnlab/glc-dp-r")
 ```
 
-The development version targets GLC schema 3.0.2 as its current default,
+The package targets GLC schema 3.0.2 as its current default,
 including metadata-driven column types, factor levels in schema-declared
 order, and per-file encodings. Schemas 3.0.0 and 3.0.1 remain compatible
 stable predecessors;
